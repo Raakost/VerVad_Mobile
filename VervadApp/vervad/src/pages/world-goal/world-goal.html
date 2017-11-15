@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ this.worldGoal.Title }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="img-div">
+    <img [src]="worldGoal.Image">
+  </div>
+  <button class="directions-button" ion-button full (click)="navigateToDirectionsPage()" no-margin>Klik her for rutevejledning</button>
+  <h2 class="title" no-margin style="text-align: center;">{{this.worldGoal.Title}}</h2>
+  <p no-margin class="goal-description">{{this.worldGoal.Description}}</p>
+
+  <ion-list class="accordion-list">
+    <!-- World goal accordion menu. -->
+    <ion-list-header *ngFor="let item of accordionMenu; let i = index" no-lines no-padding>
+      <!-- Toggle open/close submenu for children's expressions. -->
+      <button ion-item (click)="toggleSubMenu(i);" (click)="clickMenuItem(i, item);" detail-none [ngClass]="{'section-active': item.open, 'section': !item.open}">
+        <ion-icon item-right name="arrow-forward" *ngIf="!item.open && item.menuItems"></ion-icon>
+        <ion-icon item-right name="arrow-down" *ngIf="item.open && item.menuItems"></ion-icon>{{ item.title }}
+      </button>
+      <ion-list *ngIf="item.menuItems && item.open" no-lines>
+        <!-- Second Level:Children's Submenu - Artwork etc.. -->
+        <ion-list-header *ngFor="let child of item.menuItems;" (click)="navigateToSubPage(child)" no-padding>
+          <ion-item ion-item detail-none class="child-item" text-wrap>
+            <h2>{{ child.title }}</h2>
+          </ion-item>
+        </ion-list-header>
+      </ion-list>
+    </ion-list-header>
+  </ion-list>
+</ion-content>

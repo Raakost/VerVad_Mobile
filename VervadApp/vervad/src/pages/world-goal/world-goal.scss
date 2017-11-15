@@ -1,0 +1,63 @@
+page-world-goal {
+  .accordion-list {
+    background: color($colors, light);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -1px !important;
+  }
+  .section {
+    background: color($colors, secondary);
+    color: #fff;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+  }
+  .section-active {
+    background: color($colors, secondary);
+    color: #fff;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+  }
+
+  .child {
+    background: #e8e7e6;
+    color: #000;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  .child-item {
+    background: #f3f2f1;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  .label {
+    margin: 0px;
+  }
+  .list {
+    margin-bottom: 4px;
+  }
+  .list-header-md {
+    margin-bottom: 0px;
+  }
+
+  .img-div img {
+    display: block;
+  }
+
+  .goal-description {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .directions-button {
+    text-transform: uppercase;
+    font-size: medium;
+  }
+
+  .title {
+    padding-top: 10px;
+  }
+}

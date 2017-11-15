@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{pageTitle}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of texts" style="border-radius: 23px;">
+    <ion-card-header class="header">{{item.txtTitle}}</ion-card-header>
+    <ion-card-content class="content" style="margin-top: 15px; margin-bottom:15px;">
+      <div class="ellipsis">
+        {{item.txt}}
+      </div>
+      <ion-fab class="fab-btn">
+        <button (click)="navigateToText(item)" ion-fab color="primary">
+          <ion-icon name="book"></ion-icon>
+        </button>
+      </ion-fab>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

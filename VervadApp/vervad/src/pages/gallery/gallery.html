@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{pageTitle}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding>
+  <ion-grid no-padding>
+    <ion-row *ngFor="let row of getTriples()" (click)="imageClick(i)">
+      <ion-col *ngFor="let i of row">
+        <ion-thumbnail style="padding: 2px;">
+          <img [src]="i"/>
+        </ion-thumbnail>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+

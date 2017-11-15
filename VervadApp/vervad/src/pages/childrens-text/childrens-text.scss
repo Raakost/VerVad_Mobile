@@ -1,0 +1,28 @@
+page-childrens-text {
+  .header {
+    background-color: color($colors, primary);
+    color: color($colors, light);
+    font-size: 2.0rem;
+  }
+
+  .ellipsis {
+    padding-top: 10px;
+    padding-right: 50px;
+    height: 69px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .fab-btn {
+    position: absolute;
+    right: 8px;
+    top: 19px;
+  }
+
+  .content {
+    position: relative;
+  }
+}

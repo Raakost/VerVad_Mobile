@@ -1,0 +1,29 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar style="position: absolute;">
+
+      <button no-margin no-padding ion-button small style="right: -262px; background: none; height: 32px; border-radius: 15px;" (click)="changeLanguage('da')">
+        <img src="assets/imgs/flag_da.png"/>
+      </button>
+      <button no-margin no-padding ion-button small style="right: -192px; background: none; height: 32px; border-radius: 15px;" (click)="changeLanguage('en')">
+        <img src="assets/imgs/flag_en.png" />
+      </button>
+      <!--<button no-margin no-padding ion-button small style="right: -121px; background: none; height: 32px; border-radius: 15px;" (click)="changeLanguage('de')">
+        <img src="assets/imgs/flag_de.png" />
+      </button>-->
+      <h2 style="position: absolute; top: 0; left: 15px; font-size: 2rem; font-weight: 500; color: #fff;">Verdensmål</h2>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list style="margin: 56px 0 16px;">
+      <button class="worldgoal-list-button" menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
