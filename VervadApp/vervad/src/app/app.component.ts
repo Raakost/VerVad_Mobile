@@ -2,9 +2,10 @@ import {Component, ViewChild} from '@angular/core';
 import {Nav, Platform} from 'ionic-angular';
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
-
 import {HomePage} from '../pages/home/home';
 import {WorldGoalPage} from "../pages/world-goal/world-goal";
+import {TranslateService} from '@ngx-translate/core';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -15,10 +16,9 @@ export class MyApp {
   rootPage: any = HomePage;
   pages: Array<{ title: string, component: any }>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public translate: TranslateService) {
+    translate.setDefaultLang('da');
     this.initializeApp();
-
-
     var mockDataGoals = {
       goals: [
         {
@@ -122,9 +122,9 @@ export class MyApp {
     this.pages = goalPages;
   }
 
-  changeLanguage(){
-
-  };
+  changeLanguage(language) {
+    this.translate.use(language);
+  }
 
   initializeApp() {
     this.platform.ready().then(() => {

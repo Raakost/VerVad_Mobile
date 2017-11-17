@@ -15,55 +15,49 @@ export class WorldGoalPage {
   worldGoal: any = undefined;
   accordionMenu: any = [];
 
-
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.worldGoal = navParams.get('data');
     this.accordionMenu.push({
-      title: 'Børns Udtryk',
+      title: 'childrensExpressions',
       menuItems: [
         {
-          type: 'artwork',
-          title: 'Tegninger & Malerier'
+          title: 'artwork'
         },
         {
-          type: 'sculptures',
-          title: 'Kunstværker & Skulpturer'
+          title: 'sculptures'
         },
         {
-          type: 'texts',
-          title: 'Tekster'
+          title: 'texts'
         }
       ]
     });
     this.accordionMenu.push({
-      title: 'Musik & Video'
+      title: 'musicVideo'
     });
     this.accordionMenu.push({
-      title: 'Land Art'
+      title: 'landArt'
     });
   }
 
   // toggle open/close submenu for children's expressions.
   toggleSubMenu(index) {
     this.accordionMenu[index].open = !this.accordionMenu[index].open;
-    console.log('submenu childrens experssions');
   }
 
   navigateToSubPage(menuItem) {
     // artwork gallery
-    if (menuItem.type == 'artwork')
+    if (menuItem.title == 'artwork')
       this.navCtrl.push(GalleryPage, {data: menuItem});
     // sculptures gallery
-    if (menuItem.type == 'sculptures')
+    if (menuItem.title == 'sculptures')
       this.navCtrl.push(GalleryPage, {data: menuItem});
-    if (menuItem.type == 'texts')
+    if (menuItem.title == 'texts')
       this.navCtrl.push(ChildrensTextPage, {data: menuItem});
-    console.log(menuItem.type);
   }
 
   clickMenuItem(index, menuItem) {
     if (index == 1) {
-      this.navCtrl.push(AudioPage);
+      this.navCtrl.push(AudioPage, {data: menuItem});
     }
     // LandArt
     else if (index == 2) {

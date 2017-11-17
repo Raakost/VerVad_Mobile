@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
-import {ScreenOrientation} from '@ionic-native/screen-orientation';
 
 @Component({
   selector: 'page-home',
@@ -9,7 +8,7 @@ import {ScreenOrientation} from '@ionic-native/screen-orientation';
 export class HomePage {
 
 
-  constructor(public navCtrl: NavController, public  screenOrientation : ScreenOrientation) {
-    //screenOrientation.lock('portrait');
+  constructor(public navCtrl: NavController) {
+
   }
 }
