@@ -7,9 +7,11 @@
 
   <ion-slides *ngIf="images && images.length" pager>
     <ion-slide no-margin="" *ngFor="let i of images">
-      <h2>Overskrift til Billede</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non scelerisque nibh. Vestibulum ante ipsum primis
-        in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur vel purus ultricies mauris fringilla rhoncus.
+      <h2 class="text-title">Overskrift til Billede</h2>
+      <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non scelerisque nibh. Vestibulum ante ipsum
+        primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur vel purus ultricies mauris fringilla
+        rhoncus.
         Duis a vehicula nunc, a sagittis leo.</p>
       <img [src]="i"/>
     </ion-slide>

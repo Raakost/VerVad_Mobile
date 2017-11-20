@@ -6,5 +6,7 @@
   "sculptures": "Art & Sculptures",
   "texts": "Texts",
   "musicVideo": "Music & Video",
-  "landArt": "Land Art"
+  "landArt": "Land Art",
+  "authorHeader" : "Written by: ",
+  "artistHeader" : "Artist: "
 }

@@ -8,8 +8,9 @@
   <ion-card *ngFor="let item of texts" style="border-radius: 23px;">
     <ion-card-header class="header">{{item.txtTitle}}</ion-card-header>
     <ion-card-content class="content" style="margin-top: 15px; margin-bottom:15px;">
+      <h3 style="font-weight: bold;">{{"authorHeader" | translate}} {{item.author}}</h3>
       <div class="ellipsis">
-        {{item.txt}}
+        <p>{{item.txt}}</p>
       </div>
       <ion-fab class="fab-btn">
         <button (click)="navigateToText(item)" ion-fab color="primary">

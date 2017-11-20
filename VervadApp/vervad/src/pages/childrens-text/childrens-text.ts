@@ -15,6 +15,7 @@ export class ChildrensTextPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pageTitle = navParams.get('data').title;
     this.texts.push({
+      author: 'Lise 5a',
       txtTitle: 'Tekst 1 overskrift',
       txt: 'Cras vitae gravida neque. Cras at auctor tortor. Vestibulum' +
       ' ante ipsum primis in faucibus orci luctus et ultrices posuere ' +
@@ -25,7 +26,7 @@ export class ChildrensTextPage {
       'a ut felis. Morbi id egestas lorem. Morbi vulputate ante felis, quis commodo' +
       ' purus molestie ac. Curabitur laoreet porta arcu, nec vestibulum eros molestie non.'
     });
-    this.texts.push({
+    this.texts.push({author: 'Lone 7b',
       txtTitle: 'Tekst 2 overskrift',
       txt: 'Cras vitae gravida neque. Cras at auctor tortor. Vestibulum' +
       ' ante ipsum primis in faucibus orci luctus et ultrices posuere ' +
@@ -36,7 +37,7 @@ export class ChildrensTextPage {
       'a ut felis. Morbi id egestas lorem. Morbi vulputate ante felis, quis commodo' +
       ' purus molestie ac. Curabitur laoreet porta arcu, nec vestibulum eros molestie non.'
     });
-    this.texts.push({
+    this.texts.push({author: 'Lars 3a',
       txtTitle: 'Tekst 3 overskrift',
       txt: 'Cras vitae gravida neque. Cras at auctor tortor. Vestibulum' +
       ' ante ipsum primis in faucibus orci luctus et ultrices posuere ' +
@@ -47,7 +48,7 @@ export class ChildrensTextPage {
       'a ut felis. Morbi id egestas lorem. Morbi vulputate ante felis, quis commodo' +
       ' purus molestie ac. Curabitur laoreet porta arcu, nec vestibulum eros molestie non.'
     });
-    this.texts.push({
+    this.texts.push({author: 'Lillian 8c',
       txtTitle: 'Tekst 4 overskrift',
       txt: 'Cras vitae gravida neque. Cras at auctor tortor. Vestibulum' +
       ' ante ipsum primis in faucibus orci luctus et ultrices posuere ' +
@@ -58,7 +59,6 @@ export class ChildrensTextPage {
       'a ut felis. Morbi id egestas lorem. Morbi vulputate ante felis, quis commodo' +
       ' purus molestie ac. Curabitur laoreet porta arcu, nec vestibulum eros molestie non.'
     });
-
   }
 
   navigateToText() {
