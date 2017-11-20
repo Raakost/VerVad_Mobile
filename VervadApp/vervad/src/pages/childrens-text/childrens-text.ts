@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
-import {HomePage} from "../home/home";
+import {ChildrensTextDetailPage} from "../childrens-text-detail/childrens-text-detail";
 
 
 @IonicPage()
@@ -26,7 +26,8 @@ export class ChildrensTextPage {
       'a ut felis. Morbi id egestas lorem. Morbi vulputate ante felis, quis commodo' +
       ' purus molestie ac. Curabitur laoreet porta arcu, nec vestibulum eros molestie non.'
     });
-    this.texts.push({author: 'Lone 7b',
+    this.texts.push({
+      author: 'Lone 7b',
       txtTitle: 'Tekst 2 overskrift',
       txt: 'Cras vitae gravida neque. Cras at auctor tortor. Vestibulum' +
       ' ante ipsum primis in faucibus orci luctus et ultrices posuere ' +
@@ -37,7 +38,8 @@ export class ChildrensTextPage {
       'a ut felis. Morbi id egestas lorem. Morbi vulputate ante felis, quis commodo' +
       ' purus molestie ac. Curabitur laoreet porta arcu, nec vestibulum eros molestie non.'
     });
-    this.texts.push({author: 'Lars 3a',
+    this.texts.push({
+      author: 'Lars 3a',
       txtTitle: 'Tekst 3 overskrift',
       txt: 'Cras vitae gravida neque. Cras at auctor tortor. Vestibulum' +
       ' ante ipsum primis in faucibus orci luctus et ultrices posuere ' +
@@ -48,7 +50,8 @@ export class ChildrensTextPage {
       'a ut felis. Morbi id egestas lorem. Morbi vulputate ante felis, quis commodo' +
       ' purus molestie ac. Curabitur laoreet porta arcu, nec vestibulum eros molestie non.'
     });
-    this.texts.push({author: 'Lillian 8c',
+    this.texts.push({
+      author: 'Lillian 8c',
       txtTitle: 'Tekst 4 overskrift',
       txt: 'Cras vitae gravida neque. Cras at auctor tortor. Vestibulum' +
       ' ante ipsum primis in faucibus orci luctus et ultrices posuere ' +
@@ -61,8 +64,8 @@ export class ChildrensTextPage {
     });
   }
 
-  navigateToText() {
-    this.navCtrl.push(HomePage);
+  navigateToText(item) {
+    this.navCtrl.push(ChildrensTextDetailPage, {data : item});
   }
 
   ionViewDidLoad() {

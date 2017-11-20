@@ -16,6 +16,7 @@ import {AudioPage} from "../pages/audio/audio";
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {ChildrensTextDetailPage} from "../pages/childrens-text-detail/childrens-text-detail";
 
 export function setTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -30,7 +31,8 @@ export function setTranslateLoader(http: HttpClient) {
     GalleryPage,
     ImageSliderPage,
     ChildrensTextPage,
-    AudioPage
+    AudioPage,
+    ChildrensTextDetailPage
 
   ],
   imports: [
@@ -56,7 +58,8 @@ export function setTranslateLoader(http: HttpClient) {
     GalleryPage,
     ImageSliderPage,
     ChildrensTextPage,
-    AudioPage
+    AudioPage,
+    ChildrensTextDetailPage
   ],
   providers: [
     StatusBar,
