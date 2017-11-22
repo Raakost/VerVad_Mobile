@@ -7,7 +7,6 @@ import {WorldGoalPage} from "../pages/world-goal/world-goal";
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {DirectionsPage} from "../pages/directions/directions";
-import {IonicAudioModule} from 'ionic-audio';
 import {GalleryPage} from "../pages/gallery/gallery";
 import {ImageSliderPage} from "../pages/image-slider/image-slider";
 import {ScreenOrientation} from '@ionic-native/screen-orientation';
@@ -17,6 +16,11 @@ import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {ChildrensTextDetailPage} from "../pages/childrens-text-detail/childrens-text-detail";
+import {FrontpageServiceProvider} from '../providers/frontpage-service/frontpage-service';
+import {HttpModule} from "@angular/http";
+import {GlobalGoalServiceProvider} from '../providers/global-goal-service/global-goal-service';
+import { IonicAudioModule, defaultAudioProviderFactory } from 'ionic-audio';
+
 
 export function setTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -38,8 +42,9 @@ export function setTranslateLoader(http: HttpClient) {
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    IonicAudioModule.forRoot(),
+    IonicAudioModule.forRoot(defaultAudioProviderFactory),
     HttpClientModule,
+    HttpModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -65,7 +70,9 @@ export function setTranslateLoader(http: HttpClient) {
     StatusBar,
     SplashScreen,
     ScreenOrientation,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    FrontpageServiceProvider,
+    GlobalGoalServiceProvider
   ]
 })
 

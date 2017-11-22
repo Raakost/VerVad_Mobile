@@ -6,10 +6,10 @@
 
 <ion-content no-padding>
   <ion-grid no-padding>
-    <ion-row *ngFor="let row of getTriples()" (click)="imageClick(i)">
-      <ion-col *ngFor="let i of row">
-        <ion-thumbnail style="padding: 2px;">
-          <img [src]="i"/>
+    <ion-row *ngFor="let row of getTriples();">
+      <ion-col *ngFor="let item of row;">
+        <ion-thumbnail (click)="imageClick(getImageIndex(item))" style="padding: 2px;">
+          <img [src]="item.imgUrl"/>
         </ion-thumbnail>
       </ion-col>
     </ion-row>

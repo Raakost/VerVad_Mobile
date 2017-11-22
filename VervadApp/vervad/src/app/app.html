@@ -3,22 +3,25 @@
     <ion-toolbar>
       <div style="right: 2px; top: 10px; position: absolute;">
         <button no-margin no-padding ion-button small
-                style="height: 32px; border-radius: 15px;"
+                style="height: 26px; border-radius: 20px;"
                 (click)="changeLanguage('da')">
           <img src="assets/imgs/flag_da.png"/>
         </button>
         <button no-margin no-padding ion-button small
-                style="height: 32px; border-radius: 15px;"
+                style="height: 26px; border-radius: 20px;"
+                (click)="changeLanguage('de')">
+          <img src="assets/imgs/flag_de.png"/>
+        </button>
+        <button no-margin no-padding ion-button small
+                style="height: 26px; border-radius: 20px;"
                 (click)="changeLanguage('en')">
           <img src="assets/imgs/flag_en.png"/>
         </button>
-        <button no-margin no-padding ion-button small
-                 style="height: 32px; border-radius: 15px;"
-                 (click)="changeLanguage('de')">
-           <img src="assets/imgs/flag_de.png"/>
-         </button>
       </div>
-      <h2 style="font-size: 2rem; font-weight: 500; color: #fff; padding-left: 16px;">{{"appSidemenuTitle" | translate}}</h2>
+      <img *ngIf="curLang == 'da' || defaultl" src="assets/imgs/logo-dansk-white.png"/>
+      <img *ngIf="curLang == 'en'" src="assets/imgs/global-goals-logo-white.png"/>
+      <img *ngIf="curLang == 'de'" src="assets/imgs/logo-dansk-white.png"/>
+      <!--<h2 style="font-size: 2rem; font-weight: 500; color: #fff; padding-left: 16px;">{{"appSidemenuTitle" | translate}}</h2> -->
     </ion-toolbar>
   </ion-header>
 

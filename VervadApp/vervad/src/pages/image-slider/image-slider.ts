@@ -1,6 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
 import {IonicPage, NavController, NavParams, Slides} from 'ionic-angular';
-import {ScreenOrientation} from '@ionic-native/screen-orientation';
 
 
 @IonicPage()
@@ -10,20 +9,20 @@ import {ScreenOrientation} from '@ionic-native/screen-orientation';
 })
 export class ImageSliderPage {
   @ViewChild(Slides) slides: Slides;
+
   images: any = [];
+  selectedImage: number;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public screenOrientation: ScreenOrientation) {
-    console.log(this.screenOrientation.type);
-   // screenOrientation.unlock();
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.images = this.navParams.get('data');
+    this.selectedImage = this.navParams.get('index');
   }
-
-  //ngOnDestroy(){
-  //this.screenOrientation.lock('portrait');
-  //}
 
   ionViewDidLoad() {
-    this.images = this.navParams.get('data');
+    console.log(this.images);
   }
 
-
+  ngAfterViewInit() {
+    this.slides.initialSlide = this.selectedImage;
+  }
 }

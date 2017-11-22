@@ -12,27 +12,15 @@ export class GalleryPage {
   images: string[];
   rows: any;
   pageTitle: string;
+  image: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.images = [
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature",
-      "https://placeimg.com/500/400/nature"];
+    this.images = navParams.get('data').images;
     this.pageTitle = navParams.get('data').title;
+  }
+
+  getImageIndex(item){
+    return this.images.indexOf(item);
   }
 
   getTriples() {
@@ -52,8 +40,8 @@ export class GalleryPage {
     return triples;
   }
 
-  imageClick() {
-    this.navCtrl.push(ImageSliderPage, {data: this.images});
+  imageClick(index) {
+    this.navCtrl.push(ImageSliderPage, {'data': this.images, 'index': index});
 
   }
 

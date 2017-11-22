@@ -5,6 +5,7 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {HomePage} from '../pages/home/home';
 import {WorldGoalPage} from "../pages/world-goal/world-goal";
 import {TranslateService} from '@ngx-translate/core';
+import {GlobalGoalServiceProvider} from "../providers/global-goal-service/global-goal-service";
 
 
 @Component({
@@ -15,115 +16,28 @@ export class MyApp {
 
   rootPage: any = HomePage;
   pages: Array<{ title: string, component: any }>;
+  curLang: string;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public translate: TranslateService) {
+  constructor(public platform: Platform,
+              public statusBar: StatusBar,
+              public splashScreen: SplashScreen,
+              public translate: TranslateService,
+              public service: GlobalGoalServiceProvider) {
     translate.setDefaultLang('da');
     this.initializeApp();
-    var mockDataGoals = {
-      goals: [
-        {
-          Title: 'Verdensmål Titel #1',
-          Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-          Latitude: 9,
-          Longitude: 55,
-          Image: 'https://placeimg.com/500/300/nature',
-          Poems: [
-            {
-              Title: 'Digt #1',
-              Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ante diam, a rhoncus nisi faucibus sit amet. Aenean lorem.'
-            }
-          ], Story: [
-          {
-            Title: 'Eventyr #1',
-            Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ante diam, a rhoncus nisi faucibus sit amet. Aenean lorem.'
-          }
-        ],
-          LandArt: [
-            {
-              Title: 'Land art #1',
-              Image: 'https://dummyimage.com/600x400/000000/00ffae&text=Billede+af+Land+Art'
-            }
-          ],
-          KidsArt: [
-            {
-              Title: 'Børns Kunst #1',
-              Image: 'https://dummyimage.com/600x400/000000/00ffae&text=Billede+af+B%C3%B8rns+Kunst'
-            }
-          ]
-        },
-        {
-          Title: 'Verdensmål Titel #2',
-          Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-          Latitude: 9,
-          Longitude: 55,
-          Image: 'https://placeimg.com/500/300/nature',
-          Texts: [
-            {
-              Title: 'Digt #2',
-              Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ante diam, a rhoncus nisi faucibus sit amet. Aenean lorem.'
-            }
-          ], Story: [
-          {
-            Title: 'Eventyr #2',
-            Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ante diam, a rhoncus nisi faucibus sit amet. Aenean lorem.'
-          }
-        ],
-          LandArt: [
-            {
-              Title: 'Land art #2',
-              Image: 'https://dummyimage.com/600x400/000000/00ffae&text=Billede+af+Land+Art'
-            }
-          ],
-          KidsArt: [
-            {
-              Title: 'Børns Kunst #2',
-              Image: 'https://dummyimage.com/600x400/000000/00ffae&text=Billede+af+B%C3%B8rns+Kunst'
-            }
-          ]
-        },
-        {
-          Title: 'Verdensmål Titel #3',
-          Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-          Latitude: 9,
-          Longitude: 55,
-          Image: 'https://placeimg.com/500/300/nature',
-          Poems: [
-            {
-              Title: 'Digt #3',
-              Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ante diam, a rhoncus nisi faucibus sit amet. Aenean lorem.'
-            }
-          ], Story: [
-          {
-            Title: 'Eventyr #3',
-            Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ante diam, a rhoncus nisi faucibus sit amet. Aenean lorem.'
-          }
-        ],
-          LandArt: [
-            {
-              Title: 'Land art #3',
-              Image: 'https://dummyimage.com/600x400/000000/00ffae&text=Billede+af+Land+Art'
-            }
-          ],
-          KidsArt: [
-            {
-              Title: 'Børns Kunst #3',
-              Image: 'https://dummyimage.com/600x400/000000/00ffae&text=Billede+af+B%C3%B8rns+Kunst'
-            }
-          ]
-        }
-      ]
-    };
 
-    var goalPages = [];
-    for (var i = 0; i < mockDataGoals.goals.length; i++) {
-      var cur = mockDataGoals.goals[i];
-      goalPages.push({title: cur.Title, component: WorldGoalPage, data: cur})
+    let mockDataGoals = service.getGlobalGoals();
+    let goalPages = [];
+    for (let i = 0; i < mockDataGoals.length; i++) {
+      let cur = mockDataGoals[i];
+      goalPages.push({title: cur.title, component: WorldGoalPage, data: cur})
     }
     this.pages = goalPages;
   }
 
   changeLanguage(language) {
     this.translate.use(language);
+    this.curLang = language;
   }
 
   initializeApp() {
@@ -132,6 +46,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+      this.curLang = this.translate.getDefaultLang();
     });
   }
 

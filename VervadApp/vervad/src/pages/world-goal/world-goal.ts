@@ -17,14 +17,18 @@ export class WorldGoalPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.worldGoal = navParams.get('data');
+
+    // add categories for accordion menu.
     this.accordionMenu.push({
       title: 'childrensExpressions',
       menuItems: [
         {
-          title: 'artwork'
+          title: 'artwork',
+          images: this.worldGoal.childrensDrawings
         },
         {
-          title: 'sculptures'
+          title: 'sculptures',
+          images: this.worldGoal.childrensSculptures
         },
         {
           title: 'texts'
@@ -35,7 +39,8 @@ export class WorldGoalPage {
       title: 'musicVideo'
     });
     this.accordionMenu.push({
-      title: 'landArt'
+      title: 'landArt',
+      images: this.worldGoal.landArt
     });
   }
 
