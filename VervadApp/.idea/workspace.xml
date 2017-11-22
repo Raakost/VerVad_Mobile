@@ -2,37 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c037207-3c35-48f1-8d35-200ed6e4d3fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-hdpi-icon.png" afterPath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-hdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-ldpi-icon.png" afterPath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-ldpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-mdpi-icon.png" afterPath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-mdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-xhdpi-icon.png" afterPath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-xhdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-xxhdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="$PROJECT_DIR$/vervad/resources/android/icon/drawable-xxxhdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/resources/icon.png" afterPath="$PROJECT_DIR$/vervad/resources/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/assets/imgs/flag_da.png" afterPath="$PROJECT_DIR$/vervad/src/assets/imgs/flag_da.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/assets/imgs/flag_de.png" afterPath="$PROJECT_DIR$/vervad/src/assets/imgs/flag_de.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/assets/imgs/flag_en.png" afterPath="$PROJECT_DIR$/vervad/src/assets/imgs/flag_en.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/package.json" afterPath="$PROJECT_DIR$/vervad/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/app/app.component.ts" afterPath="$PROJECT_DIR$/vervad/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/app/app.html" afterPath="$PROJECT_DIR$/vervad/src/app/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/app/app.module.ts" afterPath="$PROJECT_DIR$/vervad/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/app/app.scss" afterPath="$PROJECT_DIR$/vervad/src/app/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/assets/i18n/da.json" afterPath="$PROJECT_DIR$/vervad/src/assets/i18n/da.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/assets/i18n/de.json" afterPath="$PROJECT_DIR$/vervad/src/assets/i18n/de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/assets/i18n/en.json" afterPath="$PROJECT_DIR$/vervad/src/assets/i18n/en.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/models/childrensArtwork.ts" afterPath="$PROJECT_DIR$/vervad/src/models/childrensArtwork.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/models/childrensText.ts" afterPath="$PROJECT_DIR$/vervad/src/models/childrensText.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/audio/audio.html" afterPath="$PROJECT_DIR$/vervad/src/pages/audio/audio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/audio/audio.scss" afterPath="$PROJECT_DIR$/vervad/src/pages/audio/audio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/audio/audio.ts" afterPath="$PROJECT_DIR$/vervad/src/pages/audio/audio.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.html" afterPath="$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.scss" afterPath="$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/childrens-text/childrens-text.html" afterPath="$PROJECT_DIR$/vervad/src/pages/childrens-text/childrens-text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/gallery/gallery.html" afterPath="$PROJECT_DIR$/vervad/src/pages/gallery/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/gallery/gallery.ts" afterPath="$PROJECT_DIR$/vervad/src/pages/gallery/gallery.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/home/home.html" afterPath="$PROJECT_DIR$/vervad/src/pages/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/vervad/src/pages/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/image-slider/image-slider.html" afterPath="$PROJECT_DIR$/vervad/src/pages/image-slider/image-slider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/image-slider/image-slider.ts" afterPath="$PROJECT_DIR$/vervad/src/pages/image-slider/image-slider.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/home/home.scss" afterPath="$PROJECT_DIR$/vervad/src/pages/home/home.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.html" afterPath="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.ts" afterPath="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/theme/variables.scss" afterPath="$PROJECT_DIR$/vervad/src/theme/variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.scss" afterPath="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vervad/src/providers/global-goal-service/global-goal-service.ts" afterPath="$PROJECT_DIR$/vervad/src/providers/global-goal-service/global-goal-service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,23 +31,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vervad/src/app/app.html">
+      <file leaf-file-name="world-goal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="158">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="da.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/da.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="de.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/de.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/en.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global-goal-service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/providers/global-goal-service/global-goal-service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
               <folding>
-                <element signature="n#style#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+                <element signature="e#486#1364#0" expanded="false" />
+                <element signature="e#1412#2290#0" expanded="false" />
+                <element signature="e#2326#3124#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vervad/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-17">
@@ -73,6 +93,56 @@
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/app/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" column="87" lean-forward="false" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+              <folding>
+                <element signature="n#style#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="audio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/pages/audio/audio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#ion-item#0;n#audio-track#0;n#ion-content#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="world-goal.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vervad/src/pages/home/home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,6 +171,7 @@
       <find>menuitems</find>
       <find>sli</find>
       <find>dar</find>
+      <find>tit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,36 +187,22 @@
         <option value="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.module.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/directions/directions.html" />
         <option value="$PROJECT_DIR$/vervad/ionic.config.json" />
-        <option value="$PROJECT_DIR$/vervad/src/pages/home/home.scss" />
         <option value="$PROJECT_DIR$/vervad/src/pages/land-art/land-art.html" />
         <option value="$PROJECT_DIR$/vervad/src/pages/directions/directions.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/gallery/gallery.scss" />
         <option value="$PROJECT_DIR$/vervad/config.xml" />
-        <option value="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.scss" />
-        <option value="$PROJECT_DIR$/vervad/src/assets/i18n/da.json" />
-        <option value="$PROJECT_DIR$/vervad/src/assets/i18n/en.json" />
         <option value="$PROJECT_DIR$/vervad/src/pages/childrens-text/childrens-text.scss" />
         <option value="$PROJECT_DIR$/vervad/src/pages/image-slider/image-slider.scss" />
         <option value="$PROJECT_DIR$/vervad/src/pages/childrens-text/childrens-text.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/assets/i18n/de.json" />
         <option value="$PROJECT_DIR$/vervad/src/pages/childrens-text/childrens-text.html" />
         <option value="$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.scss" />
         <option value="$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.html" />
         <option value="$PROJECT_DIR$/vervad/src/models/global-goal.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/models/childrensText.ts" />
         <option value="$PROJECT_DIR$/vervad/src/models/childrensSculpture.ts" />
         <option value="$PROJECT_DIR$/vervad/src/models/childrensDrawings.ts" />
         <option value="$PROJECT_DIR$/vervad/src/models/music.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/models/frontpage.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/pages/home/home.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/pages/home/home.html" />
-        <option value="$PROJECT_DIR$/vervad/src/providers/frontpage-service/frontpage-service.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.html" />
-        <option value="$PROJECT_DIR$/vervad/src/models/childrensArtwork.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/image-slider/image-slider.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/models/landArt.ts" />
-        <option value="$PROJECT_DIR$/vervad/src/models/globalGoal.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/gallery/gallery.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/gallery/gallery.html" />
@@ -155,11 +212,25 @@
         <option value="$PROJECT_DIR$/vervad/src/models/audio.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/audio/audio.ts" />
         <option value="$PROJECT_DIR$/vervad/src/pages/audio/audio.scss" />
-        <option value="$PROJECT_DIR$/vervad/src/pages/audio/audio.html" />
-        <option value="$PROJECT_DIR$/vervad/src/providers/global-goal-service/global-goal-service.ts" />
         <option value="$PROJECT_DIR$/vervad/src/app/app.scss" />
-        <option value="$PROJECT_DIR$/vervad/src/app/app.html" />
         <option value="$PROJECT_DIR$/vervad/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/models/landArt.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/models/childrensArtwork.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/models/globalGoal.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/models/childrensText.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/pages/home/home.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/models/frontpage.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/providers/frontpage-service/frontpage-service.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/vervad/src/pages/home/home.scss" />
+        <option value="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.scss" />
+        <option value="$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.html" />
+        <option value="$PROJECT_DIR$/vervad/src/app/app.html" />
+        <option value="$PROJECT_DIR$/vervad/src/providers/global-goal-service/global-goal-service.ts" />
+        <option value="$PROJECT_DIR$/vervad/src/pages/audio/audio.html" />
+        <option value="$PROJECT_DIR$/vervad/src/assets/i18n/en.json" />
+        <option value="$PROJECT_DIR$/vervad/src/assets/i18n/de.json" />
+        <option value="$PROJECT_DIR$/vervad/src/assets/i18n/da.json" />
       </list>
     </option>
   </component>
@@ -217,7 +288,22 @@
               <item name="VervadApp" type="462c0819:PsiDirectoryNode" />
               <item name="vervad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VervadApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VervadApp" type="462c0819:PsiDirectoryNode" />
+              <item name="vervad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VervadApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VervadApp" type="462c0819:PsiDirectoryNode" />
+              <item name="vervad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VervadApp" type="b2602c69:ProjectViewProjectNode" />
@@ -239,8 +325,7 @@
               <item name="VervadApp" type="462c0819:PsiDirectoryNode" />
               <item name="vervad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="childrens-text" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VervadApp" type="b2602c69:ProjectViewProjectNode" />
@@ -248,6 +333,7 @@
               <item name="vervad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="providers" type="462c0819:PsiDirectoryNode" />
+              <item name="frontpage-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VervadApp" type="b2602c69:ProjectViewProjectNode" />
@@ -256,13 +342,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="providers" type="462c0819:PsiDirectoryNode" />
               <item name="global-goal-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VervadApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VervadApp" type="462c0819:PsiDirectoryNode" />
-              <item name="vervad" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,12 +414,12 @@
       <workItem from="1510865673722" duration="6651000" />
       <workItem from="1510905315753" duration="7405000" />
       <workItem from="1511167393816" duration="33045000" />
-      <workItem from="1511300918313" duration="12957000" />
+      <workItem from="1511300918313" duration="17395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194536000" />
+    <option name="totallyTimeSpent" value="198974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,9 +432,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22767857" sideWeight="0.48039216" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22767857" sideWeight="0.48039216" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2991453" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -410,27 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/pages/gallery/gallery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/pages/childrens-text-detail/childrens-text-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vervad/node_modules/@ionic-native/screen-orientation/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -439,13 +498,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vervad/src/models/global-goal.ts" />
-    <entry file="file://$PROJECT_DIR$/vervad/src/models/childrensText.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vervad/src/models/childrensDrawings.ts" />
     <entry file="file://$PROJECT_DIR$/vervad/src/models/childrensSculpture.ts" />
     <entry file="file://$PROJECT_DIR$/vervad/src/models/music.ts" />
@@ -464,88 +516,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/models/frontpage.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/providers/frontpage-service/frontpage-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/models/childrensArtwork.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/models/landArt.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/models/globalGoal.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,13 +539,6 @@
         <state relative-caret-position="170">
           <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="67" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/da.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -614,29 +582,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/models/audio.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vervad/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="44" column="58" lean-forward="false" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/pages/audio/audio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#ion-item#0;n#audio-track#0;n#ion-content#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,21 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/assets/imgs/logo-dansk-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/assets/imgs/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/assets/imgs/global-goals-logo-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vervad/src/assets/imgs/gg_logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -691,33 +626,6 @@
         <state relative-caret-position="51">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/providers/global-goal-service/global-goal-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="98" column="23" lean-forward="false" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-          <folding>
-            <element signature="e#486#1364#0" expanded="false" />
-            <element signature="e#1412#2290#0" expanded="false" />
-            <element signature="e#2326#3124#0" expanded="false" />
-            <element signature="e#3689#10234#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vervad/src/app/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,6 +674,119 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/models/audio.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/models/landArt.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/models/globalGoal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/models/childrensArtwork.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/models/childrensText.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/providers/frontpage-service/frontpage-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/models/frontpage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/assets/imgs/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/assets/imgs/global-goals-logo-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/assets/imgs/logo-dansk-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/pages/home/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/pages/world-goal/world-goal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vervad/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
@@ -773,6 +794,68 @@
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="87" lean-forward="false" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ion-toolbar#0;n#ion-header#0;n#ion-menu#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/providers/global-goal-service/global-goal-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
+          <folding>
+            <element signature="e#486#1364#0" expanded="false" />
+            <element signature="e#1412#2290#0" expanded="false" />
+            <element signature="e#2326#3124#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/pages/audio/audio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ion-item#0;n#audio-track#0;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/de.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vervad/src/assets/i18n/da.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -92,7 +92,7 @@ export class GlobalGoalServiceProvider {
       'Beskrivelse til siden, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex.' +
       'consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. ',
       'https://www.dropbox.com/s/ewkmod3sbhw71ia/listener%20-%20Wooden%20Heart%20-%2001%20You%20have%20never%20lived%20because%20you%20have%20never%20died.mp3?dl=1',
-      'https://www.youtube.com/embed/3BMgV8jj9IU',
+      'https://www.youtube.com/embed/RpqVmvMCmp0',
       'Titel på sang',
       'Kunstner');
 
