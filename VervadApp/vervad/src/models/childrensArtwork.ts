@@ -4,15 +4,15 @@ export class ChildrensArtwork {
               title: string,
               description: string,
               imgUrl: string) {
-    this.artist = artist;
-    this.title = title;
-    this.description = description;
-    this.imgUrl = imgUrl;
+    this.Artist = artist;
+    this.Title = title;
+    this.Description = description;
+    this.ImgUrl = imgUrl;
   }
 
-  id: number;
-  artist: string;
-  title: string;
-  description: string;
-  imgUrl: string;
+  Id: number;
+  Artist: string;
+  Title: string;
+  Description: string;
+  ImgUrl: string;
 }

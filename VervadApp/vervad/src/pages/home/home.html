@@ -8,10 +8,10 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content *ngIf="fp">
   <div class="img-div">
-    <img src={{fp.imgUrl}}/>
+    <img [src]="fp.ImgUrl"/>
   </div>
-  <h2 class="h2-title" no-margin style="text-align: center">{{fp.title}}</h2>
-  <p style="padding: 10px;" no-margin>{{fp.description}}</p>
+  <h2 class="h2-title" no-margin style="text-align: center">{{fp.Title }}</h2>
+  <p style="padding: 10px;" no-margin>{{fp.Description }}</p>
 </ion-content>

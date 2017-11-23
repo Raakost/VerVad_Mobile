@@ -15,27 +15,27 @@ export class GlobalGoal {
               latitude: number,
               longitude: number,) {
 
-    this.title = title;
-    this.description = description;
-    this.imgUrl = imgUrl;
-    this.childrensTexts = childrensTexts;
-    this.childrensDrawings = childrensDrawings;
-    this.childrensSculptures = childrensSculptures;
-    this.landArt = landtArt;
-    this.audio = audio;
-    this.latitude = latitude;
-    this.longitude = longitude;
+    this.Title = title;
+    this.Description = description;
+    this.ImgUrl = imgUrl;
+    this.ChildrensTexts = childrensTexts;
+    this.ChildrensDrawings = childrensDrawings;
+    this.ChildrensSculptures = childrensSculptures;
+    this.LandArt = landtArt;
+    this.Audio = audio;
+    this.Latitude = latitude;
+    this.Longitude = longitude;
   }
 
-  id: number;
-  title: string;
-  description: string;
-  imgUrl: string;
-  childrensTexts: Array<ChildrensText>;
-  childrensDrawings: Array<ChildrensArtwork>;
-  childrensSculptures: Array<ChildrensArtwork>;
-  landArt: Array<LandArt>;
-  audio: Audio;
-  latitude: number;
-  longitude: number;
+  Id: number;
+  Title: string;
+  Description: string;
+  ImgUrl: string;
+  ChildrensTexts: Array<ChildrensText>;
+  ChildrensDrawings: Array<ChildrensArtwork>;
+  ChildrensSculptures: Array<ChildrensArtwork>;
+  LandArt: Array<LandArt>;
+  Audio: Audio;
+  Latitude: number;
+  Longitude: number;
 }

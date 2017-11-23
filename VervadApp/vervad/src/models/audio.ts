@@ -5,19 +5,19 @@ export class Audio {
               videoUrl: string,
               songTitle: string,
               songArtist: string) {
-    this.title = title;
-    this.description = description;
-    this.musicUrl = musicUrl;
-    this.videoUrl = videoUrl;
-    this.songTitle = songTitle;
-    this.songArtist = songArtist;
+    this.Title = title;
+    this.Description = description;
+    this.MusicUrl = musicUrl;
+    this.VideoUrl = videoUrl;
+    this.SongTitle = songTitle;
+    this.SongArtist = songArtist;
   }
 
-  id: number;
-  title: string;
-  description: string;
-  songArtist: string;
-  songTitle: string;
-  musicUrl: string;
-  videoUrl: string;
+  Id: number;
+  Title: string;
+  Description: string;
+  SongArtist: string;
+  SongTitle: string;
+  MusicUrl: string;
+  VideoUrl: string;
 }

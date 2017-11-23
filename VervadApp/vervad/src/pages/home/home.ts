@@ -8,9 +8,13 @@ import {FrontpageServiceProvider} from "../../providers/frontpage-service/frontp
   templateUrl: 'home.html'
 })
 export class HomePage {
-  fp: Frontpage = new Frontpage();
+  fp: Frontpage;
 
-  constructor(public navCtrl: NavController, public service : FrontpageServiceProvider) {
-   this.fp = service.getFrontpage();
+  constructor(public navCtrl: NavController, public service: FrontpageServiceProvider) {
+    this.service.getFrontpage(1, 'da').subscribe(param =>{
+      this.fp = param;
+      console.log(param);
+    });
   }
+
 }

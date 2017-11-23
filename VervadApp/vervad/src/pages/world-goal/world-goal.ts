@@ -24,11 +24,11 @@ export class WorldGoalPage {
       menuItems: [
         {
           title: 'artwork',
-          images: this.worldGoal.childrensDrawings
+          images: this.worldGoal.ChildrensDrawings
         },
         {
           title: 'sculptures',
-          images: this.worldGoal.childrensSculptures
+          images: this.worldGoal.ChildrensSculptures
         },
         {
           title: 'texts'
@@ -40,7 +40,7 @@ export class WorldGoalPage {
     });
     this.accordionMenu.push({
       title: 'landArt',
-      images: this.worldGoal.landArt
+      images: this.worldGoal.LandArt
     });
   }
 

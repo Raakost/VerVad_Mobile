@@ -1,7 +1,7 @@
 export class Frontpage {
   constructor(){}
-  id: number;
-  imgUrl: string;
-  title: string;
-  description: string;
+  Id: number;
+  Title: string;
+  Description: string;
+  ImgUrl: string;
 }

@@ -30,7 +30,7 @@ export class MyApp {
     let goalPages = [];
     for (let i = 0; i < mockDataGoals.length; i++) {
       let cur = mockDataGoals[i];
-      goalPages.push({title: cur.title, component: WorldGoalPage, data: cur})
+      goalPages.push({title: cur.Title, component: WorldGoalPage, data: cur})
     }
     this.pages = goalPages;
   }

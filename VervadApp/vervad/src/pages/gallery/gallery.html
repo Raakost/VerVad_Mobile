@@ -9,7 +9,7 @@
     <ion-row *ngFor="let row of getTriples();">
       <ion-col *ngFor="let item of row;">
         <ion-thumbnail (click)="imageClick(getImageIndex(item))" style="padding: 2px;">
-          <img [src]="item.imgUrl"/>
+          <img [src]="item.ImgUrl"/>
         </ion-thumbnail>
       </ion-col>
     </ion-row>

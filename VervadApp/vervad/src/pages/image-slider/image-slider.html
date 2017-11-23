@@ -7,10 +7,10 @@
 
   <ion-slides *ngIf="images && images.length" pager>
     <ion-slide no-margin="" *ngFor="let i of images">
-      <h2 class="text-title">{{i.title}}</h2>
-      <h5 *ngIf="i.artist">{{"artistHeader" | translate}} {{i.artist}}</h5>
-      <p class="text-body">{{i.description}}</p>
-      <img [src]="i.imgUrl"/>
+      <h2 class="text-title">{{i.Title}}</h2>
+      <h5 *ngIf="i.Artist">{{"artistHeader" | translate}} {{i.Artist}}</h5>
+      <p class="text-body">{{i.Description}}</p>
+      <img [src]="i.ImgUrl"/>
     </ion-slide>
   </ion-slides>
 </ion-content>

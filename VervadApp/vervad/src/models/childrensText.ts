@@ -2,13 +2,13 @@ export class ChildrensText {
   constructor(title: string,
               description: string,
               author: string) {
-    this.title = title;
-    this.description = description;
-    this.author = author;
+    this.Title = title;
+    this.Description = description;
+    this.Author = author;
   }
 
-  id: number;
-  title: string;
-  description: string;
-  author: string;
+  Id: number;
+  Title: string;
+  Description: string;
+  Author: string;
 }

@@ -2,14 +2,13 @@ export class LandArt {
   constructor(title: string,
               description: string,
               imgUrl: string) {
-    this.title = title;
-    this.description = description;
-    this.imgUrl = imgUrl;
+    this.Title = title;
+    this.Description = description;
+    this.ImgUrl = imgUrl;
   }
 
-  id: number;
-  //artist : string;
-  title: string;
-  description: string;
-  imgUrl: string;
+  Id: number;
+  Title: string;
+  Description: string;
+  ImgUrl: string;
 }
