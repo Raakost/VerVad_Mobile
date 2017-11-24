@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {Http} from '@angular/http';
 import 'rxjs/add/operator/map';
 import {GlobalGoal} from "../../models/globalGoal";
-import {Audio} from "../../models/audio";
+import {AudioVideo} from "../../models/audioVideo";
 import {ChildrensArtwork} from "../../models/childrensArtwork";
 import {LandArt} from "../../models/landArt";
 
@@ -87,7 +87,7 @@ export class GlobalGoalServiceProvider {
         "https://placeimg.com/500/400/nature"
       )
     ];
-    let audio = new Audio(
+    let audio = new AudioVideo(
       'Titel på siden',
       'Beskrivelse til siden, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex.' +
       'consectetur adipiscing elit. Proin lacinia elementum ex. In ultrices purus nec est lacinia vehicula. ',
@@ -109,7 +109,7 @@ export class GlobalGoalServiceProvider {
         'Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
         'In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, ' +
         'sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, 12, 12
+        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, '12', '12'
       ),
       new GlobalGoal('#2 Stop Sult',
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
@@ -123,7 +123,7 @@ export class GlobalGoalServiceProvider {
         'Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
         'In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, ' +
         'sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, 12, 12
+        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, '12', '12'
       ),
       new GlobalGoal('#3 Sundhed & Trivsel',
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
@@ -137,7 +137,7 @@ export class GlobalGoalServiceProvider {
         'Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
         'In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, ' +
         'sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, 12, 12
+        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, '12', '12'
       ),
       new GlobalGoal('#4 Kvalitets Uddannelse',
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
@@ -151,7 +151,7 @@ export class GlobalGoalServiceProvider {
         'Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
         'In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, ' +
         'sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, 12, 12
+        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, '12', '12'
       ),
       new GlobalGoal('#5 Ligestilling Mellem Kønnene',
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
@@ -165,7 +165,7 @@ export class GlobalGoalServiceProvider {
         'Etiam sed arcu vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia elementum ex. ' +
         'In ultrices purus nec est lacinia vehicula. Sed gravida, mauris nec sollicitudin tempus, ex augue feugiat odio, ' +
         'sed molestie magna magna a est. Etiam sed arcu vel nisl.',
-        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, 12, 12
+        'https://placeimg.com/500/300/nature', [], drawings, sculptures, landArt, audio, '12', '12'
       )
     ]
   }

@@ -1,7 +1,7 @@
 import {ChildrensText} from "./childrensText";
 import {ChildrensArtwork} from "./childrensArtwork";
 import {LandArt} from "./landArt";
-import {Audio} from "./audio";
+import {AudioVideo} from "./audioVideo";
 
 export class GlobalGoal {
   constructor(title: string,
@@ -11,9 +11,9 @@ export class GlobalGoal {
               childrensDrawings: Array<ChildrensArtwork>,
               childrensSculptures: Array<ChildrensArtwork>,
               landtArt: Array<LandArt>,
-              audio: Audio,
-              latitude: number,
-              longitude: number,) {
+              audio: AudioVideo,
+              latitude: string,
+              longitude: string,) {
 
     this.Title = title;
     this.Description = description;
@@ -35,7 +35,7 @@ export class GlobalGoal {
   ChildrensDrawings: Array<ChildrensArtwork>;
   ChildrensSculptures: Array<ChildrensArtwork>;
   LandArt: Array<LandArt>;
-  Audio: Audio;
-  Latitude: number;
-  Longitude: number;
+  Audio: AudioVideo;
+  Latitude: string;
+  Longitude: string;
 }

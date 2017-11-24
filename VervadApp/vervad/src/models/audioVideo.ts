@@ -1,4 +1,4 @@
-export class Audio {
+export class AudioVideo {
   constructor(title: string,
               description: string,
               musicUrl: string,

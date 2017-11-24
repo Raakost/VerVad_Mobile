@@ -17,7 +17,6 @@ export class FrontpageServiceProvider {
     //'    orci luctus et ultrices posuere cubilia Curae; Sed vestibulum neque vitae nisi blandit commodo. Maecenas varius,\n' +
     //'    dolor at commodo.';
     //this.frontpage.imgUrl = 'http://res.cloudinary.com/bjoernebanden/image/upload/v1509645764/1920-x-1080-nationalpark-vadehavet-kort_arxf8u.jpg';
-
   }
 
   getFrontpage(id: number, language: string): Observable<Frontpage> {
@@ -26,6 +25,5 @@ export class FrontpageServiceProvider {
     console.log(frontPage);
     return frontPage;
   }
-
 }
 

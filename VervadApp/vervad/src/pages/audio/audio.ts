@@ -15,7 +15,7 @@ export class AudioPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public audioProvider : AudioProvider) {
     this.myTracks = [{
-      src: 'https://www.dropbox.com/s/ewkmod3sbhw71ia/listener%20-%20Wooden%20Heart%20-%2001%20You%20have%20never%20lived%20because%20you%20have%20never%20died.mp3?dl=1 ',
+      src: 'https://www.dropbox.com/s/ewkmod3sbhw71ia/listener%20-%20Wooden%20Heart%20-%2001%20You%20have%20never%20lived%20because%20you%20have%20never%20died.mp3?dl=1',
       artist: 'Listener',
       title: 'You have never lived because you have never died',
       preload: 'metadata' // tell the plugin to preload metadata such as duration for this track, set to 'none' to turn off
