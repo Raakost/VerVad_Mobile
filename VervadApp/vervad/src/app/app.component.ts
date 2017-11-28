@@ -21,8 +21,8 @@ export class MyApp {
   constructor(public platform: Platform,
               public statusBar: StatusBar,
               public splashScreen: SplashScreen,
-              public translate: TranslateService,
-              public service: GlobalGoalServiceProvider) {
+              private translate: TranslateService,
+              private service: GlobalGoalServiceProvider) {
     translate.setDefaultLang('da');
     this.initializeApp();
 

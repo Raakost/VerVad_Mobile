@@ -20,7 +20,8 @@ import {FrontpageServiceProvider} from '../providers/frontpage-service/frontpage
 import {HttpModule} from "@angular/http";
 import {GlobalGoalServiceProvider} from '../providers/global-goal-service/global-goal-service';
 import { IonicAudioModule, defaultAudioProviderFactory } from 'ionic-audio';
-
+import { LaunchNavigator } from "@ionic-native/launch-navigator";
+import { Geolocation } from '@ionic-native/geolocation';
 
 export function setTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -72,7 +73,9 @@ export function setTranslateLoader(http: HttpClient) {
     ScreenOrientation,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     FrontpageServiceProvider,
-    GlobalGoalServiceProvider
+    GlobalGoalServiceProvider,
+    LaunchNavigator,
+    Geolocation
   ]
 })
 

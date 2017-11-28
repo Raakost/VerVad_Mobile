@@ -4,6 +4,8 @@ import {GalleryPage} from "../gallery/gallery";
 import {DirectionsPage} from "../directions/directions";
 import {ChildrensTextPage} from "../childrens-text/childrens-text";
 import {AudioPage} from "../audio/audio";
+import { Geolocation } from '@ionic-native/geolocation';
+import {LaunchNavigator, LaunchNavigatorOptions} from "@ionic-native/launch-navigator";
 
 
 @IonicPage()
@@ -14,9 +16,16 @@ import {AudioPage} from "../audio/audio";
 export class WorldGoalPage {
   worldGoal: any = undefined;
   accordionMenu: any = [];
+  latitude: number = undefined;
+  longtitude: number = undefined;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private geolocation: Geolocation,
+  private launchnavigator: LaunchNavigator) {
+
+
+
     this.worldGoal = navParams.get('data');
+    console.log(this.worldGoal);
 
     // add categories for accordion menu.
     this.accordionMenu.push({
@@ -44,6 +53,7 @@ export class WorldGoalPage {
     });
   }
 
+
   // toggle open/close submenu for children's expressions.
   toggleSubMenu(index) {
     this.accordionMenu[index].open = !this.accordionMenu[index].open;
@@ -70,9 +80,28 @@ export class WorldGoalPage {
     }
   }
 
+
   navigateToDirectionsPage() {
-    this.navCtrl.push(DirectionsPage);
+
+    var ggCoords = this.worldGoal.Latitude.toString() + ", " + this.worldGoal.Longitude.toString();
+
+    this.launchnavigator.navigate(ggCoords);
+
+    //this.geolocation.getCurrentPosition().then(pos =>{
+
+      //var lang = pos.coords.latitude.toString();
+      //var long = pos.coords.longitude.toString();
+
+      //var start = lang + ", " + long;
+
+
+
+        //.then(success =>
+          //alert("App launched"),
+        //error => alert("Unable to launch app"));
+    //});
+
+
   }
-
-
 }
+

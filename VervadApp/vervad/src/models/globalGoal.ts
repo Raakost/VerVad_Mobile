@@ -12,8 +12,8 @@ export class GlobalGoal {
               childrensSculptures: Array<ChildrensArtwork>,
               landtArt: Array<LandArt>,
               audio: AudioVideo,
-              latitude: string,
-              longitude: string,) {
+              latitude: number,
+              longitude: number) {
 
     this.Title = title;
     this.Description = description;
@@ -36,6 +36,6 @@ export class GlobalGoal {
   ChildrensSculptures: Array<ChildrensArtwork>;
   LandArt: Array<LandArt>;
   Audio: AudioVideo;
-  Latitude: string;
-  Longitude: string;
+  Latitude: number;
+  Longitude: number;
 }
