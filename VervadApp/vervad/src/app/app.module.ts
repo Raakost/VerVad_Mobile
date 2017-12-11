@@ -22,6 +22,7 @@ import {GlobalGoalServiceProvider} from '../providers/global-goal-service/global
 import { IonicAudioModule, defaultAudioProviderFactory } from 'ionic-audio';
 import { LaunchNavigator } from "@ionic-native/launch-navigator";
 import { Geolocation } from '@ionic-native/geolocation';
+import { VerVadServiceProvider } from '../providers/ver-vad-service/ver-vad-service';
 
 export function setTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -75,7 +76,8 @@ export function setTranslateLoader(http: HttpClient) {
     FrontpageServiceProvider,
     GlobalGoalServiceProvider,
     LaunchNavigator,
-    Geolocation
+    Geolocation,
+    VerVadServiceProvider
   ]
 })
 
