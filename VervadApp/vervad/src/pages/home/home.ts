@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 import {Frontpage} from "../../models/frontpage";
-import {FrontpageServiceProvider} from "../../providers/frontpage-service/frontpage-service";
+import {VerVadServiceProvider} from "../../providers/ver-vad-service/ver-vad-service";
 
 @Component({
   selector: 'page-home',
@@ -10,7 +10,7 @@ import {FrontpageServiceProvider} from "../../providers/frontpage-service/frontp
 export class HomePage {
   fp: Frontpage;
 
-  constructor(public navCtrl: NavController, public service: FrontpageServiceProvider) {
+  constructor(public navCtrl: NavController, public service: VerVadServiceProvider) {
     this.service.getFrontpage(1, 'da').subscribe(param =>{
       this.fp = param;
       console.log(param);
