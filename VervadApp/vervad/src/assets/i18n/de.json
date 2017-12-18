@@ -1,13 +1,12 @@
 {
   "appSidemenuTitle": "Die Globalen Ziele",
   "appSidemenuEmphasis" : "- für nachhaltige entwicklung",
-  "navigateBtn": "Klik her for rutevejledning",
-  "childrensExpressions": "Børns Udtryk",
-  "artwork":"Tegninger & Malerier",
-  "sculptures": "Kunstværker & Skulpturer",
-  "texts": "Tekster",
+  "navigateBtn": "Klicken Sie für eine Wegbeschreibung",
+  "childrensExpressions": "Ausdrücke der Kinder",
+  "artwork":"Kunstwerk",
+  "texts": "Texte",
   "musicVideo" : "Musik & Video",
   "landArt" : "Land Art",
-  "authorHeader" : "Skrevet af: ",
-  "artistHeader" : "Kunstner: "
+  "authorHeader" : "Autor: ",
+  "artistHeader" : "Künstler: "
 }

@@ -12,33 +12,31 @@ import {AudioVideo} from "../../models/audioVideo";
 @Injectable()
 export class VerVadServiceProvider {
 
-  APIUrl: string = 'http://vervadapi.azurewebsites.net/api/';
+  //APIUrl: string = 'http://vervadapi.azurewebsites.net/api/';
+  APIUrl : string = 'http://localhost:59535/api/';
 
   constructor(public http: Http) {
   }
 
-  //Frontpage
-
+  //---Frontpage---
   getFrontpage(id: number, language: string): Observable<Frontpage> {
     return this.http.get(this.APIUrl +  'frontpage?id=' + id + '&language=' + language)
       .map(response => response.json() as Frontpage);
 
   }
 
-  //Global goal
-
+  //---Global goal---
   getGlobalGoal(id: number, language: string): Observable<GlobalGoal>{
     return this.http.get(this.APIUrl + 'globalGoal?id=' + id + '&language=' + language)
       .map(response => response.json() as GlobalGoal);
   }
 
   getGlobalGoalList(language: string): Observable<GlobalGoal[]>{
-    return this.http.get(this.APIUrl + 'globalgoal?language=' + language)
+    return this.http.get(this.APIUrl + 'globalGoal?language=' + language)
       .map(response => response.json() as GlobalGoal[]);
   }
 
-  //ChildrensText
-
+  //---ChildrensText---
   getChildrensText(id: number, language: string): Observable<ChildrensText>{
     return this.http.get(this.APIUrl + 'ChildrensText?id=' + id + '&language=' + language)
       .map(response => response.json() as ChildrensText);
@@ -49,8 +47,7 @@ export class VerVadServiceProvider {
       .map(response => response.json() as ChildrensText[]);
   }
 
-  //Landart
-
+  //---Landart---
   getLandArt(id: number, language: string): Observable<LandArt> {
     return this.http.get(this.APIUrl + 'LandArt?id=' + id + '&language=' + language)
       .map(response => response.json() as LandArt);
@@ -61,20 +58,18 @@ export class VerVadServiceProvider {
       .map(response => response.json() as LandArt[]);
   }
 
-  //Artworks
-
+  //---ChildrensArtworks---
   getArtwork(id: number, language: string): Observable<ChildrensArtwork> {
     return this.http.get(this.APIUrl + 'Artwork?id=' + id + '&language=' + language)
       .map(response => response.json() as ChildrensArtwork);
   }
 
-  getgetArtworkList(language:string): Observable<ChildrensArtwork[]>{
+  getArtworkList(language:string): Observable<ChildrensArtwork[]>{
     return this.http.get(this.APIUrl + 'Artwork?language=' + language)
       .map(response => response.json() as ChildrensArtwork[]);
   }
 
-  //AudioVideo
-
+  //---AudioVideo---
   getAudioVideo(id: number, language: string): Observable<AudioVideo> {
     return this.http.get(this.APIUrl + 'AudioVideo?id=' + id + '&language=' + language)
       .map(response => response.json() as AudioVideo);

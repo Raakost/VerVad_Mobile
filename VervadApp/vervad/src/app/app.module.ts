@@ -16,14 +16,11 @@ import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {ChildrensTextDetailPage} from "../pages/childrens-text-detail/childrens-text-detail";
-import {FrontpageServiceProvider} from '../providers/frontpage-service/frontpage-service';
 import {HttpModule} from "@angular/http";
-import {GlobalGoalServiceProvider} from '../providers/global-goal-service/global-goal-service';
 import { IonicAudioModule, defaultAudioProviderFactory } from 'ionic-audio';
 import { LaunchNavigator } from "@ionic-native/launch-navigator";
 import { Geolocation } from '@ionic-native/geolocation';
 import { VerVadServiceProvider } from '../providers/ver-vad-service/ver-vad-service';
-import { SecurityProvider } from '../providers/security/security';
 
 export function setTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -74,12 +71,9 @@ export function setTranslateLoader(http: HttpClient) {
     SplashScreen,
     ScreenOrientation,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    FrontpageServiceProvider,
-    GlobalGoalServiceProvider,
     LaunchNavigator,
     Geolocation,
-    VerVadServiceProvider,
-    SecurityProvider
+    VerVadServiceProvider
   ]
 })
 

@@ -1,11 +1,10 @@
 import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {GalleryPage} from "../gallery/gallery";
-import {DirectionsPage} from "../directions/directions";
 import {ChildrensTextPage} from "../childrens-text/childrens-text";
 import {AudioPage} from "../audio/audio";
-import { Geolocation } from '@ionic-native/geolocation';
-import {LaunchNavigator, LaunchNavigatorOptions} from "@ionic-native/launch-navigator";
+import {LaunchNavigator} from "@ionic-native/launch-navigator";
+import {VerVadServiceProvider} from "../../providers/ver-vad-service/ver-vad-service";
 
 
 @IonicPage()
@@ -17,11 +16,10 @@ export class WorldGoalPage {
   worldGoal: any = undefined;
   accordionMenu: any = [];
   latitude: number = undefined;
-  longtitude: number = undefined;
+  longitude: number = undefined;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private geolocation: Geolocation,
-  private launchnavigator: LaunchNavigator) {
-
+  constructor(public navCtrl: NavController, public navParams: NavParams,
+              private launchnavigator: LaunchNavigator, public service: VerVadServiceProvider) {
 
 
     this.worldGoal = navParams.get('data');
@@ -34,10 +32,6 @@ export class WorldGoalPage {
         {
           title: 'artwork',
           images: this.worldGoal.ChildrensDrawings
-        },
-        {
-          title: 'sculptures',
-          images: this.worldGoal.ChildrensSculptures
         },
         {
           title: 'texts'
@@ -53,7 +47,6 @@ export class WorldGoalPage {
     });
   }
 
-
   // toggle open/close submenu for children's expressions.
   toggleSubMenu(index) {
     this.accordionMenu[index].open = !this.accordionMenu[index].open;
@@ -62,9 +55,6 @@ export class WorldGoalPage {
   navigateToSubPage(menuItem) {
     // artwork gallery
     if (menuItem.title == 'artwork')
-      this.navCtrl.push(GalleryPage, {data: menuItem});
-    // sculptures gallery
-    if (menuItem.title == 'sculptures')
       this.navCtrl.push(GalleryPage, {data: menuItem});
     if (menuItem.title == 'texts')
       this.navCtrl.push(ChildrensTextPage, {data: menuItem});
@@ -80,28 +70,10 @@ export class WorldGoalPage {
     }
   }
 
-
   navigateToDirectionsPage() {
 
     var ggCoords = this.worldGoal.Latitude.toString() + ", " + this.worldGoal.Longitude.toString();
-
     this.launchnavigator.navigate(ggCoords);
-
-    //this.geolocation.getCurrentPosition().then(pos =>{
-
-      //var lang = pos.coords.latitude.toString();
-      //var long = pos.coords.longitude.toString();
-
-      //var start = lang + ", " + long;
-
-
-
-        //.then(success =>
-          //alert("App launched"),
-        //error => alert("Unable to launch app"));
-    //});
-
-
   }
 }
 

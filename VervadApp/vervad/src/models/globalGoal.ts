@@ -8,10 +8,9 @@ export class GlobalGoal {
               description: string,
               imgUrl: string,
               childrensTexts: Array<ChildrensText>,
-              childrensDrawings: Array<ChildrensArtwork>,
-              childrensSculptures: Array<ChildrensArtwork>,
+              childrensArtworks: Array<ChildrensArtwork>,
               landtArt: Array<LandArt>,
-              audio: AudioVideo,
+             // audioVideo: AudioVideo,
               latitude: number,
               longitude: number) {
 
@@ -19,10 +18,9 @@ export class GlobalGoal {
     this.Description = description;
     this.ImgUrl = imgUrl;
     this.ChildrensTexts = childrensTexts;
-    this.ChildrensDrawings = childrensDrawings;
-    this.ChildrensSculptures = childrensSculptures;
+    this.ChildrensArtworks = childrensArtworks;
     this.LandArt = landtArt;
-    this.Audio = audio;
+    //this.AudioVideo = audioVideo;
     this.Latitude = latitude;
     this.Longitude = longitude;
   }
@@ -32,10 +30,9 @@ export class GlobalGoal {
   Description: string;
   ImgUrl: string;
   ChildrensTexts: Array<ChildrensText>;
-  ChildrensDrawings: Array<ChildrensArtwork>;
-  ChildrensSculptures: Array<ChildrensArtwork>;
+  ChildrensArtworks: Array<ChildrensArtwork>;
   LandArt: Array<LandArt>;
-  Audio: AudioVideo;
+  //AudioVideo: AudioVideo;
   Latitude: number;
   Longitude: number;
 }

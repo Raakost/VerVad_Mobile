@@ -5,7 +5,8 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {HomePage} from '../pages/home/home';
 import {WorldGoalPage} from "../pages/world-goal/world-goal";
 import {TranslateService} from '@ngx-translate/core';
-import {GlobalGoalServiceProvider} from "../providers/global-goal-service/global-goal-service";
+import {VerVadServiceProvider} from "../providers/ver-vad-service/ver-vad-service";
+import {GlobalGoal} from "../models/globalGoal";
 
 
 @Component({
@@ -17,27 +18,31 @@ export class MyApp {
   rootPage: any = HomePage;
   pages: Array<{ title: string, component: any }>;
   curLang: string;
+  gg: Array<GlobalGoal> = [];
 
-  constructor(public platform: Platform,
-              public statusBar: StatusBar,
-              public splashScreen: SplashScreen,
-              private translate: TranslateService,
-              private service: GlobalGoalServiceProvider) {
-    translate.setDefaultLang('da');
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public translateService: TranslateService, public service: VerVadServiceProvider) {
+    translateService.setDefaultLang('da');
     this.initializeApp();
+    this.curLang = translateService.getDefaultLang();
+    this.startApp();
+  }
 
-    let mockDataGoals = service.getGlobalGoals();
-    let goalPages = [];
-    for (let i = 0; i < mockDataGoals.length; i++) {
-      let cur = mockDataGoals[i];
-      goalPages.push({title: cur.Title, component: WorldGoalPage, data: cur})
-    }
-    this.pages = goalPages;
+  startApp() {
+    this.service.getGlobalGoalList(this.curLang).subscribe(goals => {
+      this.gg = goals;
+      let goalPages = [];
+      for (let i = 0; i < this.gg.length; i++) {
+        let cur = this.gg[i];
+        goalPages.push({title: cur.Title, component: WorldGoalPage, data: cur})
+      }
+      this.pages = goalPages;
+    });
   }
 
   changeLanguage(language) {
-    this.translate.use(language);
+    this.translateService.use(language);
     this.curLang = language;
+    this.startApp();
   }
 
   initializeApp() {
@@ -46,7 +51,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
       this.splashScreen.hide();
-      this.curLang = this.translate.getDefaultLang();
+      this.curLang = this.translateService.getDefaultLang();
     });
   }
 
