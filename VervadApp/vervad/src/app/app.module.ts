@@ -3,7 +3,7 @@ import {ErrorHandler, NgModule} from '@angular/core';
 import {IonicApp, IonicErrorHandler, IonicModule} from 'ionic-angular';
 import {MyApp} from './app.component';
 import {HomePage} from '../pages/home/home';
-import {WorldGoalPage} from "../pages/world-goal/world-goal";
+import {GlobalGoalPage} from "../pages/global-goal/global-goal";
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {DirectionsPage} from "../pages/directions/directions";
@@ -30,7 +30,7 @@ export function setTranslateLoader(http: HttpClient) {
   declarations: [
     MyApp,
     HomePage,
-    WorldGoalPage,
+    GlobalGoalPage,
     DirectionsPage,
     GalleryPage,
     ImageSliderPage,
@@ -58,7 +58,7 @@ export function setTranslateLoader(http: HttpClient) {
   entryComponents: [
     MyApp,
     HomePage,
-    WorldGoalPage,
+    GlobalGoalPage,
     DirectionsPage,
     GalleryPage,
     ImageSliderPage,

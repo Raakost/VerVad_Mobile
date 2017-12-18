@@ -9,10 +9,10 @@ import {VerVadServiceProvider} from "../../providers/ver-vad-service/ver-vad-ser
 
 @IonicPage()
 @Component({
-  selector: 'page-world-goal',
-  templateUrl: 'world-goal.html',
+  selector: 'page-global-goal',
+  templateUrl: 'global-goal.html',
 })
-export class WorldGoalPage {
+export class GlobalGoalPage {
   worldGoal: any = undefined;
   accordionMenu: any = [];
   latitude: number = undefined;

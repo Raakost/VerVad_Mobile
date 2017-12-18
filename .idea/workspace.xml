@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157704eb-782e-45af-bc63-9039095c58c9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/providers/global-goal-service/global-goal-service.ts" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/models/childrensArtwork.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/models/ChildrensArtwork.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.html" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.module.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.module.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.scss" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/config.xml" afterPath="$PROJECT_DIR$/VervadApp/vervad/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/package.json" afterPath="$PROJECT_DIR$/VervadApp/vervad/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/app/app.html" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/app/app.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/app/app.module.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/da.json" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/de.json" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/en.json" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/models/globalGoal.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/models/globalGoal.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/pages/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VervadApp/vervad/src/providers/ver-vad-service/ver-vad-service.ts" afterPath="$PROJECT_DIR$/VervadApp/vervad/src/providers/ver-vad-service/ver-vad-service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +23,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global-goal.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="-320">
+              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -94,14 +112,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="world-goal.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.ts">
+      <file leaf-file-name="global-goal.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global-goal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global-goal.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,16 +162,20 @@
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/providers/security/security.ts" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/models/childrensArtwork.ts" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/models/Artwork.ts" />
-        <option value="$PROJECT_DIR$/VervadApp/vervad/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/app/app.html" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/models/globalGoal.ts" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/pages/home/home.ts" />
-        <option value="$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.ts" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/providers/ver-vad-service/ver-vad-service.ts" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/en.json" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/da.json" />
         <option value="$PROJECT_DIR$/VervadApp/vervad/src/assets/i18n/de.json" />
+        <option value="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/world-goal.ts" />
+        <option value="$PROJECT_DIR$/VervadApp/vervad/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.ts" />
+        <option value="$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.module.ts" />
+        <option value="$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.scss" />
       </list>
     </option>
   </component>
@@ -224,7 +266,7 @@
               <item name="vervad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="world-goal" type="462c0819:PsiDirectoryNode" />
+              <item name="global-goal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VerVad_Mobile" type="b2602c69:ProjectViewProjectNode" />
@@ -287,12 +329,12 @@
       <workItem from="1511777170200" duration="14510000" />
       <workItem from="1513075481369" duration="396000" />
       <workItem from="1513075903768" duration="6643000" />
-      <workItem from="1513592609169" duration="14825000" />
+      <workItem from="1513592609169" duration="15995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36374000" />
+    <option name="totallyTimeSpent" value="37544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -329,25 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/providers/global-goal-service/global-goal-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="111" column="108" lean-forward="false" selection-start-line="111" selection-start-column="108" selection-end-line="111" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1513620689133" expanded="true" signature="472:905" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -386,7 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.html">
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
@@ -459,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.ts">
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1827">
           <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
@@ -487,7 +510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.html">
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
@@ -641,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -664,16 +677,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,7 +695,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ion-content#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,16 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -776,13 +769,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/world-goal/world-goal.ts">
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="-320">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VervadApp/vervad/src/pages/global-goal/global-goal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

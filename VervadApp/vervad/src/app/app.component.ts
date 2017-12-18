@@ -3,7 +3,7 @@ import {Nav, Platform} from 'ionic-angular';
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {HomePage} from '../pages/home/home';
-import {WorldGoalPage} from "../pages/world-goal/world-goal";
+import {GlobalGoalPage} from "../pages/global-goal/global-goal";
 import {TranslateService} from '@ngx-translate/core';
 import {VerVadServiceProvider} from "../providers/ver-vad-service/ver-vad-service";
 import {GlobalGoal} from "../models/globalGoal";
@@ -33,7 +33,7 @@ export class MyApp {
       let goalPages = [];
       for (let i = 0; i < this.gg.length; i++) {
         let cur = this.gg[i];
-        goalPages.push({title: cur.Title, component: WorldGoalPage, data: cur})
+        goalPages.push({title: cur.Title, component: GlobalGoalPage, data: cur})
       }
       this.pages = goalPages;
     });
