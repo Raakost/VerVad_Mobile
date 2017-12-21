@@ -13,17 +13,16 @@ import {VerVadServiceProvider} from "../../providers/ver-vad-service/ver-vad-ser
   templateUrl: 'global-goal.html',
 })
 export class GlobalGoalPage {
-  worldGoal: any = undefined;
+  globalGoal: any = undefined;
   accordionMenu: any = [];
   latitude: number = undefined;
   longitude: number = undefined;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
-              private launchnavigator: LaunchNavigator, public service: VerVadServiceProvider) {
+              private launchNavigator: LaunchNavigator, public service: VerVadServiceProvider) {
 
-
-    this.worldGoal = navParams.get('data');
-    console.log(this.worldGoal);
+    this.globalGoal = navParams.get('data');
+    console.log(this.globalGoal);
 
     // add categories for accordion menu.
     this.accordionMenu.push({
@@ -31,10 +30,11 @@ export class GlobalGoalPage {
       menuItems: [
         {
           title: 'artwork',
-          images: this.worldGoal.ChildrensDrawings
+          images: this.globalGoal.ChildrensArtworks
         },
         {
-          title: 'texts'
+          title: 'texts',
+          texts : this.globalGoal.ChildrensTexts
         }
       ]
     });
@@ -43,7 +43,7 @@ export class GlobalGoalPage {
     });
     this.accordionMenu.push({
       title: 'landArt',
-      images: this.worldGoal.LandArt
+      images: this.globalGoal.LandArt
     });
   }
 
@@ -61,6 +61,7 @@ export class GlobalGoalPage {
   }
 
   clickMenuItem(index, menuItem) {
+    // AudioPage
     if (index == 1) {
       this.navCtrl.push(AudioPage, {data: menuItem});
     }
@@ -70,10 +71,9 @@ export class GlobalGoalPage {
     }
   }
 
-  navigateToDirectionsPage() {
-
-    var ggCoords = this.worldGoal.Latitude.toString() + ", " + this.worldGoal.Longitude.toString();
-    this.launchnavigator.navigate(ggCoords);
+  launchNavigation() {
+    var ggCoords = this.globalGoal.Latitude.toString() + ", " + this.globalGoal.Longitude.toString();
+    this.launchNavigator.navigate(ggCoords);
   }
 }
 

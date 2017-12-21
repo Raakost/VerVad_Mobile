@@ -9,7 +9,6 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {DirectionsPage} from "../pages/directions/directions";
 import {GalleryPage} from "../pages/gallery/gallery";
 import {ImageSliderPage} from "../pages/image-slider/image-slider";
-import {ScreenOrientation} from '@ionic-native/screen-orientation';
 import {ChildrensTextPage} from "../pages/childrens-text/childrens-text";
 import {AudioPage} from "../pages/audio/audio";
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
@@ -17,10 +16,10 @@ import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {ChildrensTextDetailPage} from "../pages/childrens-text-detail/childrens-text-detail";
 import {HttpModule} from "@angular/http";
-import { IonicAudioModule, defaultAudioProviderFactory } from 'ionic-audio';
-import { LaunchNavigator } from "@ionic-native/launch-navigator";
-import { Geolocation } from '@ionic-native/geolocation';
-import { VerVadServiceProvider } from '../providers/ver-vad-service/ver-vad-service';
+import {IonicAudioModule, defaultAudioProviderFactory} from 'ionic-audio';
+import {LaunchNavigator} from "@ionic-native/launch-navigator";
+import {Geolocation} from '@ionic-native/geolocation';
+import {VerVadServiceProvider} from '../providers/ver-vad-service/ver-vad-service';
 
 export function setTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -37,7 +36,6 @@ export function setTranslateLoader(http: HttpClient) {
     ChildrensTextPage,
     AudioPage,
     ChildrensTextDetailPage
-
   ],
   imports: [
     BrowserModule,
@@ -52,7 +50,6 @@ export function setTranslateLoader(http: HttpClient) {
         deps: [HttpClient]
       }
     })
-
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -69,7 +66,6 @@ export function setTranslateLoader(http: HttpClient) {
   providers: [
     StatusBar,
     SplashScreen,
-    ScreenOrientation,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     LaunchNavigator,
     Geolocation,

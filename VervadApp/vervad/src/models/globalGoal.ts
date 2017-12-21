@@ -10,7 +10,7 @@ export class GlobalGoal {
               childrensTexts: Array<ChildrensText>,
               childrensArtworks: Array<ChildrensArtwork>,
               landtArt: Array<LandArt>,
-             // audioVideo: AudioVideo,
+              audioVideo: AudioVideo,
               latitude: number,
               longitude: number) {
 
@@ -20,7 +20,7 @@ export class GlobalGoal {
     this.ChildrensTexts = childrensTexts;
     this.ChildrensArtworks = childrensArtworks;
     this.LandArt = landtArt;
-    //this.AudioVideo = audioVideo;
+    this.AudioVideo = audioVideo;
     this.Latitude = latitude;
     this.Longitude = longitude;
   }
@@ -32,7 +32,7 @@ export class GlobalGoal {
   ChildrensTexts: Array<ChildrensText>;
   ChildrensArtworks: Array<ChildrensArtwork>;
   LandArt: Array<LandArt>;
-  //AudioVideo: AudioVideo;
+  AudioVideo: AudioVideo;
   Latitude: number;
   Longitude: number;
 }

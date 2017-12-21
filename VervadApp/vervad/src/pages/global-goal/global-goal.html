@@ -1,19 +1,19 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>{{ this.worldGoal.Title }}</ion-title>
+    <ion-title>{{ this.globalGoal.Title }}</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <div class="img-div">
-    <img [src]="worldGoal.ImgUrl">
+    <img [src]="globalGoal.ImgUrl">
   </div>
-  <button class="directions-button" ion-button full (click)="navigateToDirectionsPage()" no-margin>{{"navigateBtn" |
+  <button class="directions-button" ion-button full (click)="launchNavigation()" no-margin>{{"navigateBtn" |
     translate}}
   </button>
-  <h2 class="h2-title" no-margin style="text-align: center;">{{this.worldGoal.Title}}</h2>
-  <p no-margin class="goal-description">{{this.worldGoal.Description}}</p>
-  <!-- World goal accordion menu. -->
+  <h2 class="h2-title" no-margin style="text-align: center;">{{this.globalGoal.Title}}</h2>
+  <p no-margin class="goal-description">{{this.globalGoal.Description}}</p>
+  <!-- global goal accordion menu. -->
   <ion-list class="accordion-list">
     <ion-list-header *ngFor="let item of accordionMenu; let i = index" no-lines no-padding>
       <button ion-item (click)="toggleSubMenu(i);" (click)="clickMenuItem(i, item);" detail-none

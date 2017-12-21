@@ -17,18 +17,26 @@ export class MyApp {
 
   rootPage: any = HomePage;
   pages: Array<{ title: string, component: any }>;
-  curLang: string;
+  chosenLang: string;
   gg: Array<GlobalGoal> = [];
 
+  /*Set default and chosenLang in the app to Danish.*/
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public translateService: TranslateService, public service: VerVadServiceProvider) {
     translateService.setDefaultLang('da');
     this.initializeApp();
-    this.curLang = translateService.getDefaultLang();
+    this.chosenLang = translateService.getDefaultLang();
     this.startApp();
   }
 
+  initializeApp() {
+    this.platform.ready().then(() => {
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
+    });
+  }
+
   startApp() {
-    this.service.getGlobalGoalList(this.curLang).subscribe(goals => {
+    this.service.getGlobalGoalList(this.chosenLang).subscribe(goals => {
       this.gg = goals;
       let goalPages = [];
       for (let i = 0; i < this.gg.length; i++) {
@@ -41,23 +49,11 @@ export class MyApp {
 
   changeLanguage(language) {
     this.translateService.use(language);
-    this.curLang = language;
+    this.chosenLang = language;
     this.startApp();
   }
 
-  initializeApp() {
-    this.platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
-      this.curLang = this.translateService.getDefaultLang();
-    });
-  }
-
   openPage(page) {
-    // Reset the content nav to have just this page
-    // we wouldn't want the back button to show in this scenario
     this.nav.push(page.component, {data: page.data});
   }
 }

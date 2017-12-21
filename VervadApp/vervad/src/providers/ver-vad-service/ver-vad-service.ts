@@ -12,8 +12,8 @@ import {AudioVideo} from "../../models/audioVideo";
 @Injectable()
 export class VerVadServiceProvider {
 
-  //APIUrl: string = 'http://vervadapi.azurewebsites.net/api/';
-  APIUrl : string = 'http://localhost:59535/api/';
+  APIUrl: string = 'http://vervadapi.azurewebsites.net/api/';
+  //APIUrl : string = 'http://localhost:59535/api/';
 
   constructor(public http: Http) {
   }
@@ -22,7 +22,6 @@ export class VerVadServiceProvider {
   getFrontpage(id: number, language: string): Observable<Frontpage> {
     return this.http.get(this.APIUrl +  'frontpage?id=' + id + '&language=' + language)
       .map(response => response.json() as Frontpage);
-
   }
 
   //---Global goal---

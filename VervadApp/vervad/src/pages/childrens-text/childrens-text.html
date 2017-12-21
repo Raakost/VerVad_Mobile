@@ -6,11 +6,11 @@
 
 <ion-content>
   <ion-card *ngFor="let item of texts" style="border-radius: 23px;">
-    <ion-card-header class="header">{{item.txtTitle}}</ion-card-header>
+    <ion-card-header class="header">{{item.Title}}</ion-card-header>
     <ion-card-content class="content" style="margin-top: 15px; margin-bottom:15px;">
-      <h5 style="font-weight: bold;">{{"authorHeader" | translate}} {{item.author}}</h5>
+      <h5 style="font-weight: bold;">{{"authorHeader" | translate}} {{item.Author}}</h5>
       <div class="ellipsis">
-        <p>{{item.txt}}</p>
+        <p>{{item.Description}}</p>
       </div>
       <ion-fab class="fab-btn">
         <button (click)="navigateToText(item)" ion-fab color="primary">
